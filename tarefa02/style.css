@@ -1,0 +1,14 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    margin: 20px 50px;
+}
+
+.info{
+    text-align: center;
+}
+
+h2 {
+    padding-top: 15px;
+}
