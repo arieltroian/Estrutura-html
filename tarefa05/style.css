@@ -1,0 +1,24 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    margin: 20px 50px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    padding: 1rem 3rem;
+
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

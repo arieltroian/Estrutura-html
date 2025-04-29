@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Página inicial currícular de Ciência da Computação</title>
 </head>
 
 <body>
     <img src="https://cc.uffs.edu.br/images/logo/CC-logo-com-background.svg"
         alt="Imagem com o simbolo do curso de CC e escrito Ciência da Computação UFFS">
-    <div style="text-align: center;">
-        <a style="padding: 5px;" href="/tarefa02/grade_cabecalhos.html">Cabeçalhos</a>
-        <a style="padding: 5px;" href="/tarefa03/grade_tabela.html">Tabela</a>
-        <a style="padding: 5px;" href="/tarefa04/grade_listas.html">Listas</a>
-        <a style="padding: 5px;" href="https://cc.uffs.edu.br/" target="_blank">cc.uffs.edu.br</a>
+    <div class="navbar">
+        <a href="/tarefa02/grade_cabecalhos.html">Cabeçalhos</a>
+        <a href="/tarefa03/grade_tabela.html">Tabela</a>
+        <a href="/tarefa04/grade_listas.html">Listas</a>
+        <a href="https://cc.uffs.edu.br/" target="_blank">cc.uffs.edu.br</a>
     </div>
 
-    <div style="text-align: center;">
+    <div>
         <img src="data:image/png;base64,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"
             alt="Logo UFFS. A logo é composta por 3 linhas verdes, sendo a linha do meio verde forte.">
     </div>
